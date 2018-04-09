@@ -4,6 +4,9 @@ package addressbook;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
+
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -49,6 +52,49 @@ public class AddressBookController implements Initializable {
                 cityTextField
         );
         presenter.init();
+
+        contactsList.getSelectionModel().selectedItemProperty().addListener(new ChangeListener() {
+
+            @Override
+            public void changed(ObservableValue observable, Object oldValue, Object newValue) {
+                presenter.contactsListChanged();
+            }
+
+        });
+
+        fnameTextField.focusedProperty().addListener(new TextFieldListener(fnameTextField));
+        lnameTextField.focusedProperty().addListener(new TextFieldListener(lnameTextField));
+        phoneTextField.focusedProperty().addListener(new TextFieldListener(phoneTextField));
+        emailTextField.focusedProperty().addListener(new TextFieldListener(emailTextField));
+        addressTextField.focusedProperty().addListener(new TextFieldListener(addressTextField));
+        postcodeTextField.focusedProperty().addListener(new TextFieldListener(postcodeTextField));
+        cityTextField.focusedProperty().addListener(new TextFieldListener(cityTextField));
+
+    }
+
+    private class TextFieldListener implements ChangeListener<Boolean>{
+
+        private TextField textField;
+
+        public TextFieldListener(TextField textField){
+            this.textField = textField;
+        }
+
+        @Override
+        public void changed(ObservableValue<? extends Boolean> observable, Boolean oldValue, Boolean newValue) {
+            if(newValue){
+                presenter.textFieldFocusGained(textField);
+
+            }
+            else{
+                presenter.textFieldFocusLost(textField);
+            }
+        }
+    }
+
+    @FXML
+    protected void textFieldActionPerformed (ActionEvent event){
+        presenter.textFieldActionPerformed(event);
     }
 
     @FXML

@@ -12,38 +12,50 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="AddressBook.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/git/JAVA/AddressBook/src/addressbook/AddressBook.java">
+        <entry file="file://$PROJECT_DIR$/src/addressbook/AddressBook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="72">
+              <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Runtime.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/jdk-8u162-linux-x64/jdk1.8.0_162/src.zip!/java/lang/Runtime.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="45" column="13" lean-forward="false" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="AddressBookController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/git/JAVA/AddressBook/src/addressbook/AddressBookController.java">
+        <entry file="file://$PROJECT_DIR$/src/addressbook/AddressBookController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="60" column="41" lean-forward="true" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
+            <state relative-caret-position="324">
+              <caret line="88" column="17" lean-forward="false" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1584#1585#0" expanded="true" />
-                <element signature="e#1622#1623#0" expanded="true" />
-                <element signature="e#1701#1702#0" expanded="true" />
-                <element signature="e#1749#1750#0" expanded="true" />
+                <element signature="e#2717#2718#0" expanded="true" />
+                <element signature="e#2767#2768#0" expanded="true" />
+                <element signature="e#3180#3181#0" expanded="true" />
+                <element signature="e#3237#3238#0" expanded="true" />
+                <element signature="e#3313#3314#0" expanded="true" />
+                <element signature="e#3351#3352#0" expanded="true" />
+                <element signature="e#3430#3431#0" expanded="true" />
+                <element signature="e#3478#3479#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="address_book.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/git/JAVA/AddressBook/src/addressbook/address_book.fxml">
+        <entry file="file://$PROJECT_DIR$/src/addressbook/address_book.fxml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="22" lean-forward="true" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+              <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -53,20 +65,59 @@
         </entry>
       </file>
       <file leaf-file-name="Contact.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/git/JAVA/AddressBook/lib/lab1fxbackend_v1.1.jar!/se/chalmers/cse/dat215/lab1/Contact.class">
+        <entry file="jar://$PROJECT_DIR$/lib/lab1fxbackend_v1.1.jar!/se/chalmers/cse/dat215/lab1/Contact.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
+            <state relative-caret-position="72">
               <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-              <folding />
+              <folding>
+                <marker date="1453363021000" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1453363021000" expanded="true" signature="534:584" ph="{...}" />
+                <marker date="1453363021000" expanded="true" signature="607:614" ph="{}" />
+                <marker date="1453363021000" expanded="false" signature="641:652" ph=" { " />
+                <marker date="1453363021000" expanded="false" signature="670:676" ph=" }" />
+                <marker date="1453363021000" expanded="false" signature="713:724" ph=" { " />
+                <marker date="1453363021000" expanded="false" signature="743:749" ph=" }" />
+                <marker date="1453363021000" expanded="false" signature="781:792" ph=" { " />
+                <marker date="1453363021000" expanded="false" signature="812:818" ph=" }" />
+                <marker date="1453363021000" expanded="false" signature="862:873" ph=" { " />
+                <marker date="1453363021000" expanded="false" signature="896:902" ph=" }" />
+                <marker date="1453363021000" expanded="false" signature="932:943" ph=" { " />
+                <marker date="1453363021000" expanded="false" signature="961:967" ph=" }" />
+                <marker date="1453363021000" expanded="false" signature="1007:1018" ph=" { " />
+                <marker date="1453363021000" expanded="false" signature="1037:1043" ph=" }" />
+                <marker date="1453363021000" expanded="false" signature="1077:1088" ph=" { " />
+                <marker date="1453363021000" expanded="false" signature="1110:1116" ph=" }" />
+                <marker date="1453363021000" expanded="false" signature="1164:1175" ph=" { " />
+                <marker date="1453363021000" expanded="false" signature="1202:1208" ph=" }" />
+                <marker date="1453363021000" expanded="false" signature="1241:1252" ph=" { " />
+                <marker date="1453363021000" expanded="false" signature="1273:1279" ph=" }" />
+                <marker date="1453363021000" expanded="false" signature="1325:1336" ph=" { " />
+                <marker date="1453363021000" expanded="false" signature="1361:1367" ph=" }" />
+                <marker date="1453363021000" expanded="false" signature="1397:1408" ph=" { " />
+                <marker date="1453363021000" expanded="false" signature="1426:1432" ph=" }" />
+                <marker date="1453363021000" expanded="false" signature="1472:1483" ph=" { " />
+                <marker date="1453363021000" expanded="false" signature="1502:1508" ph=" }" />
+                <marker date="1453363021000" expanded="false" signature="1544:1555" ph=" { " />
+                <marker date="1453363021000" expanded="false" signature="1579:1585" ph=" }" />
+                <marker date="1453363021000" expanded="false" signature="1637:1648" ph=" { " />
+                <marker date="1453363021000" expanded="false" signature="1679:1685" ph=" }" />
+                <marker date="1453363021000" expanded="false" signature="1718:1729" ph=" { " />
+                <marker date="1453363021000" expanded="false" signature="1750:1756" ph=" }" />
+                <marker date="1453363021000" expanded="false" signature="1802:1813" ph=" { " />
+                <marker date="1453363021000" expanded="false" signature="1838:1844" ph=" }" />
+                <marker date="1453363021000" expanded="false" signature="1874:1885" ph=" { " />
+                <marker date="1453363021000" expanded="false" signature="1929:1935" ph=" }" />
+                <marker date="1453363021000" expanded="true" signature="1975:2158" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Presenter.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/git/JAVA/AddressBook/lib/lab1fxbackend_v1.1.jar!/se/chalmers/cse/dat215/lab1/Presenter.class">
+        <entry file="jar://$PROJECT_DIR$/lib/lab1fxbackend_v1.1.jar!/se/chalmers/cse/dat215/lab1/Presenter.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+            <state relative-caret-position="846">
+              <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
               <folding>
                 <marker date="1453363021000" expanded="false" signature="0:104" ph="/.../" />
                 <marker date="1453363021000" expanded="false" signature="151:289" ph="..." />
@@ -91,16 +142,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddressBookAboutController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/git/JAVA/AddressBook/src/addressbook/AddressBookAboutController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="GradleLocalSettings">
@@ -112,8 +153,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/addressbook/AddressBookController.java" />
-        <option value="$USER_HOME$/git/JAVA/AddressBook/src/addressbook/AddressBook.java" />
-        <option value="$USER_HOME$/git/JAVA/AddressBook/src/addressbook/AddressBookController.java" />
+        <option value="$PROJECT_DIR$/src/addressbook/AddressBookController.java" />
+        <option value="$PROJECT_DIR$/src/addressbook/AddressBook.java" />
       </list>
     </option>
   </component>
@@ -143,9 +184,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,6 +206,12 @@
             <path>
               <item name="AddressBook" type="b2602c69:ProjectViewProjectNode" />
               <item name="AddressBook" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="lab1fxbackend_v1.1.jar" type="ab9368bb:PsiFileNode" />
+            </path>
+            <path>
+              <item name="AddressBook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AddressBook" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -174,10 +220,18 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="addressbook" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AddressBook" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AddressBook" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="addressbook" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -185,16 +239,19 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/git/JAVA/AddressBook/lib/lab1fxbackend_v1.1.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lab2" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/addressbook/resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$USER_HOME$/git/JAVA/AddressBook/lib" />
-      <recent name="$USER_HOME$/git/JAVA" />
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/.." />
     </key>
   </component>
   <component name="RunDashboard">
@@ -331,31 +388,33 @@
       <updated>1521544568988</updated>
       <workItem from="1521544570155" duration="5850000" />
       <workItem from="1521552510970" duration="1511000" />
-      <workItem from="1521557483266" duration="4514000" />
+      <workItem from="1521557483266" duration="9908000" />
+      <workItem from="1521640808489" duration="93000" />
+      <workItem from="1522150257258" duration="2964000" />
+      <workItem from="1523009973947" duration="12000" />
+      <workItem from="1523010306831" duration="66000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11875000" />
+    <option name="totallyTimeSpent" value="20404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="29" width="1920" height="1051" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -367,6 +426,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -382,89 +442,380 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/git/JAVA/AddressBook/src/addressbook/AddressBook.java">
+    <entry file="file://$PROJECT_DIR$/src/addressbook/AddressBook.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/git/JAVA/AddressBook/src/addressbook/AddressBookAboutController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        <state relative-caret-position="72">
+          <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/git/JAVA/AddressBook/src/addressbook/AddressBookController.java">
+    <entry file="jar:///usr/lib/jvm/jdk-8u162-linux-x64/jdk1.8.0_162/src.zip!/java/lang/Runtime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1584#1585#0" expanded="true" />
-            <element signature="e#1622#1623#0" expanded="true" />
-            <element signature="e#1701#1702#0" expanded="true" />
-            <element signature="e#1749#1750#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/git/JAVA/AddressBook/src/addressbook/AddressBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/git/JAVA/AddressBook/src/addressbook/AddressBookController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1584#1585#0" expanded="true" />
-            <element signature="e#1622#1623#0" expanded="true" />
-            <element signature="e#1701#1702#0" expanded="true" />
-            <element signature="e#1749#1750#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/git/JAVA/AddressBook/src/addressbook/AddressBookAboutController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        <state relative-caret-position="342">
+          <caret line="45" column="13" lean-forward="false" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/git/JAVA/AddressBook/lib/lab1fxbackend_v1.1.jar!/se/chalmers/cse/dat215/lab1/Contact.class">
+    <entry file="file://$PROJECT_DIR$/src/addressbook/address_book.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/lab1fxbackend_v1.1.jar!/se/chalmers/cse/dat215/lab1/Contact.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
           <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/git/JAVA/AddressBook/src/addressbook/AddressBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1453363021000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1453363021000" expanded="true" signature="534:584" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="607:614" ph="{}" />
+            <marker date="1453363021000" expanded="false" signature="641:652" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="670:676" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="713:724" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="743:749" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="781:792" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="812:818" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="862:873" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="896:902" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="932:943" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="961:967" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1007:1018" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1037:1043" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1077:1088" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1110:1116" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1164:1175" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1202:1208" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1241:1252" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1273:1279" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1325:1336" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1361:1367" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1397:1408" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1426:1432" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1472:1483" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1502:1508" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1544:1555" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1579:1585" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1637:1648" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1679:1685" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1718:1729" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1750:1756" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1802:1813" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1838:1844" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1874:1885" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1929:1935" ph=" }" />
+            <marker date="1453363021000" expanded="true" signature="1975:2158" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/git/JAVA/AddressBook/src/addressbook/address_book.fxml">
+    <entry file="jar://$PROJECT_DIR$/lib/lab1fxbackend_v1.1.jar!/se/chalmers/cse/dat215/lab1/Presenter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <marker date="1453363021000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1453363021000" expanded="false" signature="151:289" ph="..." />
+            <marker date="1453363021000" expanded="true" signature="873:1172" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="1197:1429" ph="{...}" />
+            <marker date="1453363021000" expanded="false" signature="1457:1468" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1490:1496" ph=" }" />
+            <marker date="1453363021000" expanded="true" signature="1527:1636" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="1677:1871" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="1911:2179" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="2237:2376" ph="{...}" />
+            <marker date="1453363021000" expanded="false" signature="2265:2330" ph="run() → { " />
+            <marker date="1453363021000" expanded="false" signature="2344:2368" ph=" }" />
+            <marker date="1453363021000" expanded="true" signature="2426:2620" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="2664:2955" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="3015:3268" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="3333:3624" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="3669:4128" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="4163:4732" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/addressbook/AddressBookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="88" column="17" lean-forward="false" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2717#2718#0" expanded="true" />
+            <element signature="e#2767#2768#0" expanded="true" />
+            <element signature="e#3180#3181#0" expanded="true" />
+            <element signature="e#3237#3238#0" expanded="true" />
+            <element signature="e#3313#3314#0" expanded="true" />
+            <element signature="e#3351#3352#0" expanded="true" />
+            <element signature="e#3430#3431#0" expanded="true" />
+            <element signature="e#3478#3479#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/addressbook/AddressBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-8u162-linux-x64/jdk1.8.0_162/src.zip!/java/lang/Runtime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="45" column="13" lean-forward="false" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/addressbook/address_book.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/lab1fxbackend_v1.1.jar!/se/chalmers/cse/dat215/lab1/Contact.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <marker date="1453363021000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1453363021000" expanded="true" signature="534:584" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="607:614" ph="{}" />
+            <marker date="1453363021000" expanded="false" signature="641:652" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="670:676" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="713:724" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="743:749" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="781:792" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="812:818" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="862:873" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="896:902" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="932:943" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="961:967" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1007:1018" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1037:1043" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1077:1088" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1110:1116" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1164:1175" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1202:1208" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1241:1252" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1273:1279" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1325:1336" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1361:1367" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1397:1408" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1426:1432" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1472:1483" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1502:1508" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1544:1555" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1579:1585" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1637:1648" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1679:1685" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1718:1729" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1750:1756" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1802:1813" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1838:1844" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1874:1885" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1929:1935" ph=" }" />
+            <marker date="1453363021000" expanded="true" signature="1975:2158" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/lab1fxbackend_v1.1.jar!/se/chalmers/cse/dat215/lab1/Presenter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <marker date="1453363021000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1453363021000" expanded="false" signature="151:289" ph="..." />
+            <marker date="1453363021000" expanded="true" signature="873:1172" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="1197:1429" ph="{...}" />
+            <marker date="1453363021000" expanded="false" signature="1457:1468" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1490:1496" ph=" }" />
+            <marker date="1453363021000" expanded="true" signature="1527:1636" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="1677:1871" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="1911:2179" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="2237:2376" ph="{...}" />
+            <marker date="1453363021000" expanded="false" signature="2265:2330" ph="run() → { " />
+            <marker date="1453363021000" expanded="false" signature="2344:2368" ph=" }" />
+            <marker date="1453363021000" expanded="true" signature="2426:2620" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="2664:2955" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="3015:3268" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="3333:3624" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="3669:4128" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="4163:4732" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/addressbook/AddressBookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="88" column="17" lean-forward="false" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2717#2718#0" expanded="true" />
+            <element signature="e#2767#2768#0" expanded="true" />
+            <element signature="e#3180#3181#0" expanded="true" />
+            <element signature="e#3237#3238#0" expanded="true" />
+            <element signature="e#3313#3314#0" expanded="true" />
+            <element signature="e#3351#3352#0" expanded="true" />
+            <element signature="e#3430#3431#0" expanded="true" />
+            <element signature="e#3478#3479#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/addressbook/AddressBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-8u162-linux-x64/jdk1.8.0_162/src.zip!/java/lang/Runtime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="45" column="13" lean-forward="false" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/addressbook/address_book.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/lab1fxbackend_v1.1.jar!/se/chalmers/cse/dat215/lab1/Contact.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <marker date="1453363021000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1453363021000" expanded="true" signature="534:584" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="607:614" ph="{}" />
+            <marker date="1453363021000" expanded="false" signature="641:652" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="670:676" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="713:724" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="743:749" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="781:792" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="812:818" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="862:873" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="896:902" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="932:943" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="961:967" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1007:1018" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1037:1043" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1077:1088" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1110:1116" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1164:1175" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1202:1208" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1241:1252" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1273:1279" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1325:1336" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1361:1367" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1397:1408" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1426:1432" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1472:1483" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1502:1508" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1544:1555" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1579:1585" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1637:1648" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1679:1685" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1718:1729" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1750:1756" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1802:1813" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1838:1844" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1874:1885" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1929:1935" ph=" }" />
+            <marker date="1453363021000" expanded="true" signature="1975:2158" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/lab1fxbackend_v1.1.jar!/se/chalmers/cse/dat215/lab1/Presenter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <marker date="1453363021000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1453363021000" expanded="false" signature="151:289" ph="..." />
+            <marker date="1453363021000" expanded="true" signature="873:1172" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="1197:1429" ph="{...}" />
+            <marker date="1453363021000" expanded="false" signature="1457:1468" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1490:1496" ph=" }" />
+            <marker date="1453363021000" expanded="true" signature="1527:1636" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="1677:1871" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="1911:2179" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="2237:2376" ph="{...}" />
+            <marker date="1453363021000" expanded="false" signature="2265:2330" ph="run() → { " />
+            <marker date="1453363021000" expanded="false" signature="2344:2368" ph=" }" />
+            <marker date="1453363021000" expanded="true" signature="2426:2620" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="2664:2955" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="3015:3268" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="3333:3624" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="3669:4128" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="4163:4732" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/addressbook/AddressBookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="88" column="17" lean-forward="true" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2717#2718#0" expanded="true" />
+            <element signature="e#2767#2768#0" expanded="true" />
+            <element signature="e#3180#3181#0" expanded="true" />
+            <element signature="e#3237#3238#0" expanded="true" />
+            <element signature="e#3313#3314#0" expanded="true" />
+            <element signature="e#3351#3352#0" expanded="true" />
+            <element signature="e#3430#3431#0" expanded="true" />
+            <element signature="e#3478#3479#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/addressbook/AddressBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-8u162-linux-x64/jdk1.8.0_162/src.zip!/java/lang/Runtime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="45" column="13" lean-forward="false" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/addressbook/address_book.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="22" lean-forward="true" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
@@ -475,9 +826,56 @@
         <state />
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/git/JAVA/AddressBook/lib/lab1fxbackend_v1.1.jar!/se/chalmers/cse/dat215/lab1/Presenter.class">
+    <entry file="jar://$PROJECT_DIR$/lib/lab1fxbackend_v1.1.jar!/se/chalmers/cse/dat215/lab1/Contact.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="72">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <marker date="1453363021000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1453363021000" expanded="true" signature="534:584" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="607:614" ph="{}" />
+            <marker date="1453363021000" expanded="false" signature="641:652" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="670:676" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="713:724" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="743:749" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="781:792" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="812:818" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="862:873" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="896:902" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="932:943" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="961:967" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1007:1018" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1037:1043" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1077:1088" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1110:1116" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1164:1175" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1202:1208" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1241:1252" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1273:1279" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1325:1336" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1361:1367" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1397:1408" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1426:1432" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1472:1483" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1502:1508" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1544:1555" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1579:1585" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1637:1648" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1679:1685" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1718:1729" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1750:1756" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1802:1813" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1838:1844" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1874:1885" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1929:1935" ph=" }" />
+            <marker date="1453363021000" expanded="true" signature="1975:2158" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/lab1fxbackend_v1.1.jar!/se/chalmers/cse/dat215/lab1/Presenter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
           <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
           <folding>
             <marker date="1453363021000" expanded="false" signature="0:104" ph="/.../" />
@@ -502,16 +900,222 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/git/JAVA/AddressBook/src/addressbook/AddressBookController.java">
+    <entry file="file://$PROJECT_DIR$/src/addressbook/AddressBookController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="60" column="41" lean-forward="true" selection-start-line="60" selection-start-column="41" selection-end-line="60" selection-end-column="41" />
+        <state relative-caret-position="864">
+          <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1584#1585#0" expanded="true" />
-            <element signature="e#1622#1623#0" expanded="true" />
-            <element signature="e#1701#1702#0" expanded="true" />
-            <element signature="e#1749#1750#0" expanded="true" />
+            <element signature="e#2717#2718#0" expanded="true" />
+            <element signature="e#2767#2768#0" expanded="true" />
+            <element signature="e#3180#3181#0" expanded="true" />
+            <element signature="e#3237#3238#0" expanded="true" />
+            <element signature="e#3313#3314#0" expanded="true" />
+            <element signature="e#3351#3352#0" expanded="true" />
+            <element signature="e#3430#3431#0" expanded="true" />
+            <element signature="e#3478#3479#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/addressbook/AddressBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/addressbook/AddressBookAboutController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/addressbook/AddressBookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="20" lean-forward="true" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2717#2718#0" expanded="true" />
+            <element signature="e#2767#2768#0" expanded="true" />
+            <element signature="e#3180#3181#0" expanded="true" />
+            <element signature="e#3237#3238#0" expanded="true" />
+            <element signature="e#3313#3314#0" expanded="true" />
+            <element signature="e#3351#3352#0" expanded="true" />
+            <element signature="e#3430#3431#0" expanded="true" />
+            <element signature="e#3478#3479#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/addressbook/AddressBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/addressbook/AddressBookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2717#2718#0" expanded="true" />
+            <element signature="e#2767#2768#0" expanded="true" />
+            <element signature="e#3180#3181#0" expanded="true" />
+            <element signature="e#3237#3238#0" expanded="true" />
+            <element signature="e#3313#3314#0" expanded="true" />
+            <element signature="e#3351#3352#0" expanded="true" />
+            <element signature="e#3430#3431#0" expanded="true" />
+            <element signature="e#3478#3479#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/lab1fxbackend_v1.1.jar!/se/chalmers/cse/dat215/lab1/Contact.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <marker date="1453363021000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1453363021000" expanded="true" signature="534:584" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="607:614" ph="{}" />
+            <marker date="1453363021000" expanded="false" signature="641:652" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="670:676" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="713:724" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="743:749" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="781:792" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="812:818" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="862:873" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="896:902" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="932:943" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="961:967" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1007:1018" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1037:1043" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1077:1088" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1110:1116" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1164:1175" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1202:1208" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1241:1252" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1273:1279" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1325:1336" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1361:1367" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1397:1408" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1426:1432" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1472:1483" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1502:1508" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1544:1555" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1579:1585" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1637:1648" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1679:1685" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1718:1729" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1750:1756" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1802:1813" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1838:1844" ph=" }" />
+            <marker date="1453363021000" expanded="false" signature="1874:1885" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1929:1935" ph=" }" />
+            <marker date="1453363021000" expanded="true" signature="1975:2158" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/addressbook/address_book.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/lab1fxbackend_v1.1.jar!/se/chalmers/cse/dat215/lab1/Presenter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="55" column="5" lean-forward="false" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <marker date="1453363021000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1453363021000" expanded="false" signature="151:289" ph="..." />
+            <marker date="1453363021000" expanded="true" signature="873:1172" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="1197:1429" ph="{...}" />
+            <marker date="1453363021000" expanded="false" signature="1457:1468" ph=" { " />
+            <marker date="1453363021000" expanded="false" signature="1490:1496" ph=" }" />
+            <marker date="1453363021000" expanded="true" signature="1527:1636" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="1677:1871" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="1911:2179" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="2237:2376" ph="{...}" />
+            <marker date="1453363021000" expanded="false" signature="2265:2330" ph="run() → { " />
+            <marker date="1453363021000" expanded="false" signature="2344:2368" ph=" }" />
+            <marker date="1453363021000" expanded="true" signature="2426:2620" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="2664:2955" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="3015:3268" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="3333:3624" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="3669:4128" ph="{...}" />
+            <marker date="1453363021000" expanded="true" signature="4163:4732" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/jdk-8u162-linux-x64/jdk1.8.0_162/src.zip!/java/lang/Runtime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="45" column="13" lean-forward="false" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/addressbook/AddressBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="38" lean-forward="false" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/addressbook/resources/AddressBook_en.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/addressbook/resources/AddressBook_sv.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/addressbook/AddressBookAboutController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/addressbook/AddressBookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="88" column="17" lean-forward="false" selection-start-line="88" selection-start-column="17" selection-end-line="88" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2717#2718#0" expanded="true" />
+            <element signature="e#2767#2768#0" expanded="true" />
+            <element signature="e#3180#3181#0" expanded="true" />
+            <element signature="e#3237#3238#0" expanded="true" />
+            <element signature="e#3313#3314#0" expanded="true" />
+            <element signature="e#3351#3352#0" expanded="true" />
+            <element signature="e#3430#3431#0" expanded="true" />
+            <element signature="e#3478#3479#0" expanded="true" />
           </folding>
         </state>
       </provider>
