@@ -27,13 +27,14 @@
                         <RadioButton fx:id="difficultyMediumController" layoutX="140.0" layoutY="248.0" mnemonicParsing="false" text="Mellan" />
                         <RadioButton fx:id="difficultyHardController" layoutX="140.0" layoutY="272.0" mnemonicParsing="false" text="Svår" />
                         <Spinner fx:id="maxPriceController" layoutX="142.0" layoutY="330.0" prefHeight="26.0" prefWidth="123.0" />
-                        <Slider fx:id="maxTimeController" layoutX="137.0" layoutY="395.0" prefHeight="16.0" prefWidth="123.0" />
+                        <Slider fx:id="maxTimeController" layoutX="99.0" layoutY="395.0" majorTickUnit="20.0" max="150.0" min="10.0" minorTickCount="0" prefHeight="38.0" prefWidth="161.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" />
                         <Label layoutX="28.0" layoutY="201.0" text="Svårighetsgrad:" />
                         <Label layoutX="17.0" layoutY="118.0" text="Huvudingrediens:" />
                         <Label layoutX="101.0" layoutY="164.0" text="Kök:" />
                         <Label layoutX="76.0" layoutY="335.0" text="Maxpris:" />
-                        <Label layoutX="83.0" layoutY="396.0" text="Maxtid:" />
+                        <Label layoutX="49.0" layoutY="395.0" text="Maxtid:" />
                         <Label layoutX="12.0" layoutY="32.0" prefHeight="37.0" prefWidth="252.0" text="Hitta ett recept som passar genom att ändra i inställningarna nedanför" textAlignment="CENTER" wrapText="true" />
+                        <Label fx:id="minutesLabel" layoutX="107.0" layoutY="445.0" text="Label" />
                      </children>
                   </AnchorPane>
                 <AnchorPane fx:id="recipeDetailPane" minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
