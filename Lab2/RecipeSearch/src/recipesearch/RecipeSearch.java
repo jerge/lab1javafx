@@ -12,13 +12,17 @@ public class RecipeSearch extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        
+
         ResourceBundle bundle = java.util.ResourceBundle.getBundle("recipesearch/resources/RecipeSearch");
-        
-        Parent root = FXMLLoader.load(getClass().getResource("recipe_search.fxml"), bundle);
-        
+        FXMLLoader loader = new FXMLLoader(this.getClass().getResource("recipe_search.fxml"), bundle);
+        loader.load();
+        Parent root = loader.getRoot();
+
         Scene scene = new Scene(root, 800, 500);
-        
+
+        RecipeSearchController recipeSearchController = (RecipeSearchController) loader.getController();
+        recipeSearchController.init();
+
         stage.setTitle(bundle.getString("application.name"));
         stage.setScene(scene);
         stage.show();

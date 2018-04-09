@@ -1,19 +1,27 @@
 
 package recipesearch;
 
-import java.net.URL;
-import java.util.ResourceBundle;
-import javafx.fxml.Initializable;
-import se.chalmers.ait.dat215.lab2.RecipeDatabase;
+import javafx.fxml.FXML;
+import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.FlowPane;
 
+public class RecipeSearchController {
 
-public class RecipeSearchController implements Initializable {
+    @FXML
+    private AnchorPane searchPane;
 
-    RecipeDatabase db = RecipeDatabase.getSharedInstance();
+    @FXML
+    private FlowPane recipeListFlowPane;
 
-    
-    @Override
-    public void initialize(URL url, ResourceBundle rb) {
+    private RecipeBackendController recipeBackendController;
+
+    public void init() {
+        recipeBackendController = new RecipeBackendController();
+        updateRecipeList();
     }
 
+    private void updateRecipeList(){
+        recipeListFlowPane.getChildren().clear();
+        recipeBackendController.getRecipes().forEach(recipe -> recipeListFlowPane.getChildren().add(new RecipeListItem(recipe, this)));
+    }
 }
