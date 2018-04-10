@@ -3,9 +3,15 @@ package recipesearch;
 
 import javafx.beans.value.ChangeListener;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
 import javafx.scene.control.*;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.FlowPane;
+import javafx.scene.layout.StackPane;
+import se.chalmers.ait.dat215.lab2.Recipe;
+
+import java.io.IOException;
 
 public class RecipeSearchController {
 
@@ -22,13 +28,24 @@ public class RecipeSearchController {
     private Slider maxTimeController;
 
     @FXML
-    private AnchorPane searchPane;
+    private StackPane searchPane;
+
+    @FXML
+    private AnchorPane recipeDetailPane;
 
     @FXML
     private FlowPane recipeListFlowPane;
 
     @FXML
     private Label minutesLabel;
+
+    /*Detail*/
+
+    @FXML
+    private Label recipeDetailName;
+
+    @FXML
+    private ImageView recipeDetailImageView;
 
     private RecipeBackendController recipeBackendController;
 
@@ -66,7 +83,34 @@ public class RecipeSearchController {
 
         initSlider(maxTimeController, minutesLabel);
 
+        initRecipeDetailPane(recipeDetailPane, "recipe_se.fxml");
+
         updateRecipeList();
+    }
+
+    @FXML
+    public void onCloseRecipeDetailButton(){
+        searchPane.toFront();
+    }
+
+    public void openRecipeView(Recipe recipe){
+        populateRecipeDetailView(recipe);
+        recipeDetailPane.toFront();
+    }
+
+    private void populateRecipeDetailView(Recipe recipe){
+        recipeDetailName.setText(recipe.getName());
+        recipeDetailImageView.setImage(recipe.getFXImage());
+    }
+
+    private void initRecipeDetailPane(AnchorPane pane, String recipeDetailFXMLResource){
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource(recipeDetailFXMLResource));
+
+        try {
+            fxmlLoader.load();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     private <T> void initComboBox(ComboBox<T> comboBox, T selected, ChangeListener<T> changeListener, T... objects){
