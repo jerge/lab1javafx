@@ -1,4 +1,3 @@
-
 package recipesearch;
 
 import javafx.beans.value.ChangeListener;
@@ -96,21 +95,21 @@ public class RecipeSearchController {
     }
 
     @FXML
-    public void onCloseRecipeDetailButton(){
+    public void onCloseRecipeDetailButton() {
         searchPane.toFront();
     }
 
-    public void openRecipeView(Recipe recipe){
+    public void openRecipeView(Recipe recipe) {
         populateRecipeDetailView(recipe);
         recipeDetailPane.toFront();
     }
 
-    private void populateRecipeDetailView(Recipe recipe){
+    private void populateRecipeDetailView(Recipe recipe) {
         recipeDetailName.setText(recipe.getName());
         recipeDetailImageView.setImage(recipe.getFXImage());
     }
 
-    private void initRecipeDetailPane(AnchorPane pane){
+    private void initRecipeDetailPane(AnchorPane pane) {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("recipe_se.fxml"));
 
         try {
@@ -120,22 +119,22 @@ public class RecipeSearchController {
         }
     }
 
-    private <T> void initComboBox(ComboBox<T> comboBox, T selected, ChangeListener<T> changeListener, T... objects){
+    private <T> void initComboBox(ComboBox<T> comboBox, T selected, ChangeListener<T> changeListener, T... objects) {
         comboBox.getItems().addAll(objects);
         comboBox.getSelectionModel().select(selected);
         comboBox.getSelectionModel().selectedItemProperty().addListener(changeListener);
     }
 
-    private void initRadioButtons(RadioButton... radioButtons){
+    private void initRadioButtons(RadioButton... radioButtons) {
         ToggleGroup toggleGroup = new ToggleGroup();
         radioButtons[0].setSelected(true);
 
-        for(RadioButton radioButton : radioButtons){
+        for (RadioButton radioButton : radioButtons) {
             radioButton.setToggleGroup(toggleGroup);
         }
 
         toggleGroup.selectedToggleProperty().addListener((observable, oldValue, newValue) -> {
-            if(toggleGroup.getSelectedToggle() != null){
+            if (toggleGroup.getSelectedToggle() != null) {
                 RadioButton selectedRadioButton = (RadioButton) toggleGroup.getSelectedToggle();
                 recipeBackendController.setDifficulty(selectedRadioButton.getText());
                 updateRecipeList();
@@ -143,7 +142,7 @@ public class RecipeSearchController {
         });
     }
 
-    private void initSpinner(Spinner<Integer> spinner, int min, int max, int initialValue, int amountToStepBy){
+    private void initSpinner(Spinner<Integer> spinner, int min, int max, int initialValue, int amountToStepBy) {
         SpinnerValueFactory<Integer> valueFactory = new SpinnerValueFactory.IntegerSpinnerValueFactory(
                 min,
                 max,
@@ -158,7 +157,7 @@ public class RecipeSearchController {
         });
 
         spinner.focusedProperty().addListener((observable, oldValue, newValue) -> {
-            if(!newValue){
+            if (!newValue) {
                 Integer value = Integer.valueOf(spinner.getEditor().getText());
                 recipeBackendController.setMaxPrice(value);
                 updateRecipeList();
@@ -166,9 +165,9 @@ public class RecipeSearchController {
         });
     }
 
-    private void initSlider(Slider slider, Label label){
+    private void initSlider(Slider slider, Label label) {
         slider.valueProperty().addListener((observable, oldValue, newValue) -> {
-            if(newValue != null && !newValue.equals(oldValue)) {
+            if (newValue != null && !newValue.equals(oldValue)) {
                 recipeBackendController.setMaxTime(newValue.intValue());
                 label.setText("Max minutes: " + newValue.intValue());
                 updateRecipeList();
@@ -178,7 +177,7 @@ public class RecipeSearchController {
         slider.valueProperty().set(150);
     }
 
-    private void updateRecipeList(){
+    private void updateRecipeList() {
         recipeListFlowPane.getChildren().clear();
         recipeBackendController.getRecipes().forEach(recipe -> recipeListFlowPane.getChildren().add(recipeListItemMap.get(recipe.getName())));
     }

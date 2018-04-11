@@ -15,21 +15,26 @@ public class RecipeBackendController {
     private int maxPrice = 0;
     private int maxTime = 0;
 
-    public List<Recipe> getRecipes(){
+    public List<Recipe> getRecipes() {
         return db.search(new SearchFilter(difficulty, maxTime, cuisine, maxPrice, mainIngredient));
     }
-    public void setCuisine(String cuisine){
+
+    public void setCuisine(String cuisine) {
         this.cuisine = cuisine;
     }
+
     public void setMainIngredient(String mainIngredient) {
         this.mainIngredient = mainIngredient;
     }
+
     public void setDifficulty(String difficulty) {
         this.difficulty = difficulty;
     }
+
     public void setMaxPrice(int maxPrice) {
         this.maxPrice = maxPrice;
     }
+
     public void setMaxTime(int maxTime) {
         this.maxTime = maxTime;
     }

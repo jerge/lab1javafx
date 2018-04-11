@@ -1,15 +1,15 @@
-
 package recipesearch;
 
-import java.util.ResourceBundle;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+import java.util.ResourceBundle;
+
 public class RecipeSearch extends Application {
-    
+
     @Override
     public void start(Stage stage) throws Exception {
 
@@ -20,7 +20,7 @@ public class RecipeSearch extends Application {
 
         Scene scene = new Scene(root, 800, 500);
 
-        RecipeSearchController recipeSearchController = (RecipeSearchController) loader.getController();
+        RecipeSearchController recipeSearchController = loader.getController();
         recipeSearchController.init();
 
         stage.setTitle(bundle.getString("application.name"));
@@ -35,5 +35,5 @@ public class RecipeSearch extends Application {
     public static void main(String[] args) {
         launch(args);
     }
-    
+
 }
