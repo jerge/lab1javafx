@@ -12,6 +12,8 @@ import javafx.scene.layout.StackPane;
 import se.chalmers.ait.dat215.lab2.Recipe;
 
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 
 public class RecipeSearchController {
 
@@ -48,9 +50,14 @@ public class RecipeSearchController {
     private ImageView recipeDetailImageView;
 
     private RecipeBackendController recipeBackendController;
+    private Map<String, RecipeListItem> recipeListItemMap = new HashMap<>();
 
     public void init() {
         recipeBackendController = new RecipeBackendController();
+        recipeBackendController.getRecipes().forEach(recipe -> {
+            RecipeListItem recipelistItem = new RecipeListItem(recipe, this);
+            recipeListItemMap.put(recipe.getName(), recipelistItem);
+        });
 
         initComboBox(
                 mainIngredientController,
@@ -83,7 +90,7 @@ public class RecipeSearchController {
 
         initSlider(maxTimeController, minutesLabel);
 
-        initRecipeDetailPane(recipeDetailPane, "recipe_se.fxml");
+        initRecipeDetailPane(recipeDetailPane);
 
         updateRecipeList();
     }
@@ -103,8 +110,8 @@ public class RecipeSearchController {
         recipeDetailImageView.setImage(recipe.getFXImage());
     }
 
-    private void initRecipeDetailPane(AnchorPane pane, String recipeDetailFXMLResource){
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource(recipeDetailFXMLResource));
+    private void initRecipeDetailPane(AnchorPane pane){
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("recipe_se.fxml"));
 
         try {
             fxmlLoader.load();
@@ -173,6 +180,6 @@ public class RecipeSearchController {
 
     private void updateRecipeList(){
         recipeListFlowPane.getChildren().clear();
-        recipeBackendController.getRecipes().forEach(recipe -> recipeListFlowPane.getChildren().add(new RecipeListItem(recipe, this)));
+        recipeBackendController.getRecipes().forEach(recipe -> recipeListFlowPane.getChildren().add(recipeListItemMap.get(recipe.getName())));
     }
 }

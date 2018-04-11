@@ -34,7 +34,7 @@
                         <RadioButton fx:id="difficultyEasyController" layoutX="140.0" layoutY="224.0" mnemonicParsing="false" text="Lätt" />
                         <RadioButton fx:id="difficultyMediumController" layoutX="140.0" layoutY="248.0" mnemonicParsing="false" text="Mellan" />
                         <RadioButton fx:id="difficultyHardController" layoutX="140.0" layoutY="272.0" mnemonicParsing="false" text="Svår" />
-                        <Spinner fx:id="maxPriceController" layoutX="142.0" layoutY="330.0" prefHeight="26.0" prefWidth="123.0" />
+                        <Spinner fx:id="maxPriceController" editable="true" layoutX="142.0" layoutY="330.0" prefHeight="26.0" prefWidth="123.0" />
                         <Slider fx:id="maxTimeController" layoutX="99.0" layoutY="395.0" majorTickUnit="20.0" max="150.0" min="10.0" minorTickCount="0" prefHeight="38.0" prefWidth="161.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" />
                         <Label layoutX="28.0" layoutY="201.0" text="Svårighetsgrad:" />
                         <Label layoutX="17.0" layoutY="118.0" text="Huvudingrediens:" />
