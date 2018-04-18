@@ -37,6 +37,7 @@ public class RecipeListItem extends AnchorPane {
         recipeName.setText(recipe.getName());
 
         super.setOnMouseClicked(event -> {
+            event.consume();
             parentController.openRecipeView(recipe);
         });
     }

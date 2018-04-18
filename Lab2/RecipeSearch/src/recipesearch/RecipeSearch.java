@@ -18,7 +18,7 @@ public class RecipeSearch extends Application {
         loader.load();
         Parent root = loader.getRoot();
 
-        Scene scene = new Scene(root, 800, 500);
+        Scene scene = new Scene(root, 800, 600);
 
         RecipeSearchController recipeSearchController = loader.getController();
         recipeSearchController.init();

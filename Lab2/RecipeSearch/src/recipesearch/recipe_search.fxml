@@ -1,62 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.*?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.*?>
-<AnchorPane maxHeight="500.0" maxWidth="800.0" minHeight="500.0" minWidth="800.0" prefHeight="500.0" prefWidth="800.0"
-            xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1"
-            fx:controller="recipesearch.RecipeSearchController">
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<AnchorPane maxHeight="600.0" maxWidth="800.0" minHeight="500.0" minWidth="800.0" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: BLACK;" stylesheets="@recipe_search.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="recipesearch.RecipeSearchController">
     <children>
-        <AnchorPane fx:id="recipeDetailPane" prefHeight="498.0" prefWidth="800.0"
-                    style="-fx-background-color: #FFFFFF;">
+        <AnchorPane fx:id="recipeDetailPane" layoutX="1.0" layoutY="56.0" prefHeight="464.0" prefWidth="791.0" style="-fx-background-color: #FFFFFF;">
             <children>
-                <Label fx:id="recipeDetailName" layoutX="250.0" layoutY="100.0" text="Label"/>
-                <ImageView fx:id="recipeDetailImageView" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true"
-                           preserveRatio="true"/>
-                <Button layoutX="300.0" layoutY="300.0" mnemonicParsing="false" onAction="#onCloseRecipeDetailButton"
-                        text="Stäng"/>
+                <Label fx:id="recipeDetailName" layoutX="226.0" layoutY="24.0" text="Label" />
+                <ImageView fx:id="recipeDetailImageView" fitHeight="150.0" fitWidth="200.0" layoutX="13.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+            <TextArea editable="false" layoutX="441.0" layoutY="250.0" prefHeight="200.0" prefWidth="200.0" styleClass="text-area" text="tillagning" />
+            <TextArea editable="false" layoutX="14.0" layoutY="208.0" prefHeight="200.0" prefWidth="200.0" styleClass="text-area" text="ingredients" />
+            <TextArea editable="false" layoutX="226.0" layoutY="50.0" prefHeight="200.0" prefWidth="200.0" styleClass="text-area" text="description" />
+            <ImageView fx:id="closeImageView" fitHeight="25.0" fitWidth="23.0" layoutX="754.0" layoutY="13.0" onMouseClicked="#onCloseRecipeDetailButton" onMouseEntered="#closeButtonMouseEntered" onMouseExited="#closeButtonMouseExited" onMousePressed="#closeButtonMousePressed" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@resources/icon_close.png" />
+               </image>
+            </ImageView>
             </children>
         </AnchorPane>
-        <StackPane fx:id="searchPane" layoutX="2.0" layoutY="-3.0" prefHeight="500.0" prefWidth="800.0">
+        <StackPane fx:id="searchPane" layoutX="-4.0" layoutY="-3.0" onMouseClicked="#onClickedStackPane" prefHeight="611.0" prefWidth="806.0">
             <children>
                 <SplitPane dividerPositions="0.35" prefHeight="160.0" prefWidth="200.0">
                     <items>
-                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                        <AnchorPane minHeight="0.0" minWidth="0.0" onMouseClicked="#onClickedStackPane" prefHeight="600.0" prefWidth="276.0">
                             <children>
-                                <ComboBox fx:id="mainIngredientController" layoutX="142.0" layoutY="113.0"
-                                          prefHeight="25.0" prefWidth="123.0"/>
-                                <ComboBox fx:id="countryController" layoutX="142.0" layoutY="159.0" prefHeight="25.0"
-                                          prefWidth="123.0"/>
-                                <RadioButton fx:id="difficultyAnyController" layoutX="140.0" layoutY="200.0"
-                                             mnemonicParsing="false" text="Alla"/>
-                                <RadioButton fx:id="difficultyEasyController" layoutX="140.0" layoutY="224.0"
-                                             mnemonicParsing="false" text="Lätt"/>
-                                <RadioButton fx:id="difficultyMediumController" layoutX="140.0" layoutY="248.0"
-                                             mnemonicParsing="false" text="Mellan"/>
-                                <RadioButton fx:id="difficultyHardController" layoutX="140.0" layoutY="272.0"
-                                             mnemonicParsing="false" text="Svår"/>
-                                <Spinner fx:id="maxPriceController" editable="true" layoutX="142.0" layoutY="330.0"
-                                         prefHeight="26.0" prefWidth="123.0"/>
-                                <Slider fx:id="maxTimeController" layoutX="99.0" layoutY="395.0" majorTickUnit="10.0"
-                                        max="150.0" min="10.0" minorTickCount="0" prefHeight="38.0" prefWidth="161.0"
-                                        showTickLabels="true" showTickMarks="true" snapToTicks="true"/>
-                                <Label layoutX="28.0" layoutY="201.0" text="Svårighetsgrad:"/>
-                                <Label layoutX="17.0" layoutY="118.0" text="Huvudingrediens:"/>
-                                <Label layoutX="101.0" layoutY="164.0" text="Kök:"/>
-                                <Label layoutX="76.0" layoutY="335.0" text="Maxpris:"/>
-                                <Label layoutX="49.0" layoutY="395.0" text="Maxtid:"/>
-                                <Label layoutX="12.0" layoutY="32.0" prefHeight="37.0" prefWidth="252.0"
-                                       text="Hitta ett recept som passar genom att ändra i inställningarna nedanför"
-                                       textAlignment="CENTER" wrapText="true"/>
-                                <Label fx:id="minutesLabel" layoutX="107.0" layoutY="445.0" text="Label"/>
+                                <ComboBox fx:id="mainIngredientController" layoutX="142.0" layoutY="247.0" prefHeight="25.0" prefWidth="123.0" />
+                                <ComboBox fx:id="countryController" layoutX="142.0" layoutY="294.0" prefHeight="25.0" prefWidth="123.0" />
+                                <RadioButton fx:id="difficultyAnyController" layoutX="175.0" layoutY="334.0" mnemonicParsing="false" text="Alla" />
+                                <RadioButton fx:id="difficultyEasyController" layoutX="175.0" layoutY="364.0" mnemonicParsing="false" text="Lätt" />
+                                <RadioButton fx:id="difficultyMediumController" layoutX="175.0" layoutY="390.0" mnemonicParsing="false" text="Mellan" />
+                                <RadioButton fx:id="difficultyHardController" layoutX="172.0" layoutY="415.0" mnemonicParsing="false" text="Svår" />
+                                <Spinner fx:id="maxPriceController" editable="true" layoutX="136.0" layoutY="466.0" prefHeight="26.0" prefWidth="123.0" />
+                                <Slider fx:id="maxTimeController" layoutX="101.0" layoutY="517.0" majorTickUnit="10.0" max="150.0" min="10.0" minorTickCount="0" prefHeight="38.0" prefWidth="161.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" />
+                                <Label layoutX="20.0" layoutY="372.0" styleClass="text-normal" text="Svårighetsgrad:" />
+                                <Label layoutX="25.0" layoutY="250.0" styleClass="text-normal" text="Huvudingrediens:" />
+                                <Label layoutX="97.0" layoutY="297.0" styleClass="text-normal" text="Kök:" />
+                                <Label layoutX="51.0" layoutY="470.0" styleClass="text-normal" text="Maxpris:" />
+                                <Label layoutX="51.0" layoutY="517.0" styleClass="text-normal" text="Maxtid:" />
+                                <Label layoutX="10.0" layoutY="165.0" prefHeight="70.0" prefWidth="252.0" styleClass="text-large" text="Hitta ett recept som passar genom att ändra i inställningarna nedanför" textAlignment="CENTER" wrapText="true" />
+                                <Label fx:id="minutesLabel" layoutX="121.0" layoutY="567.0" text="Label" />
+                        <ImageView fitHeight="90.0" fitWidth="89.0" layoutX="20.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@resources/logo.png" />
+                           </image>
+                        </ImageView>
+                        <Label layoutX="107.0" styleClass="logo" text="Recept" />
+                        <Label layoutX="168.0" layoutY="43.0" styleClass="logo-twirl" text="Sök" />
                             </children>
                         </AnchorPane>
-                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                        <AnchorPane minHeight="0.0" minWidth="0.0" onMouseClicked="#onClickedStackPane" prefHeight="600.0" prefWidth="516.0">
                             <children>
-                                <ScrollPane prefHeight="498.0" prefWidth="516.0">
+                                <ScrollPane prefHeight="598.0" prefWidth="516.0">
                                     <content>
-                                        <FlowPane id="recipeListFlowPane" fx:id="recipeListFlowPane" prefHeight="496.0"
-                                                  prefWidth="514.0"/>
+                                        <FlowPane id="recipeListFlowPane" fx:id="recipeListFlowPane" prefHeight="594.0" prefWidth="498.0" />
                                     </content>
                                 </ScrollPane>
                             </children>
