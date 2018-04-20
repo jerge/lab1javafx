@@ -12,10 +12,12 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.FlowPane;
 import javafx.scene.layout.StackPane;
 import javafx.util.Callback;
+import se.chalmers.ait.dat215.lab2.Ingredient;
 import se.chalmers.ait.dat215.lab2.Recipe;
 
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class RecipeSearchController {
@@ -59,21 +61,55 @@ public class RecipeSearchController {
     private Label minutesLabel;
 
 
-    /*Detail*/
 
+    /*Detail*/
     @FXML
     private ImageView closeImageView;
 
     @FXML
-    private Label recipeDetailName;
+    private Label recipeDetailName, minutesCookingLabel, costLabel;
+
+    private void populateRecipeDetailView(Recipe recipe) {
+        recipeDetailName.setText(recipe.getName());
+        minutesCookingLabel.setText(recipe.getTime() + " minuter");
+        costLabel.setText(recipe.getPrice() + " kr");
+        cookingTextArea.setText(recipe.getInstruction());
+        ingredientsTextArea.setText(toString(recipe.getServings(), recipe.getIngredients()));
+        descriptionTextArea.setText(recipe.getDescription());
+
+        recipeDetailImageView.setImage(recipe.getFXImage());
+        countryImageView.setImage(nameToImageMap.get(recipe.getCuisine()));
+        mainIngredientImageView.setImage(nameToImageMap.get(recipe.getMainIngredient()));
+        difficultyImageView.setImage(getDifficultyImage(recipe.getDifficulty()));
+    }
+
+    private String toString(int portions, List<Ingredient> ingredientList){
+        StringBuilder sb = new StringBuilder();
+        sb.append(portions).append(" portioner").append("\n");
+
+        ingredientList.forEach(ingredient ->
+            sb
+                .append(ingredient.getAmount())
+                .append(" ")
+                .append(ingredient.getUnit())
+                .append(" ")
+                .append(ingredient.getName())
+                .append("\n"));
+
+        return sb.toString();
+    }
 
     @FXML
-    private ImageView recipeDetailImageView;
+    private TextArea cookingTextArea, ingredientsTextArea, descriptionTextArea;
+
+    @FXML
+    private ImageView recipeDetailImageView, countryImageView, mainIngredientImageView, difficultyImageView;
 
     private RecipeBackendController recipeBackendController;
-
     private Map<String, RecipeListItem> recipeListItemMap = new HashMap<>();
+
     private Map<String, Image> nameToImageMap = new HashMap<>();
+
     public void init() {
         recipeBackendController = new RecipeBackendController();
         recipeBackendController.getRecipes().forEach(recipe -> {
@@ -95,12 +131,12 @@ public class RecipeSearchController {
 
         initComboBox(
                 countryController,
-                "",
+                "Visa alla",
                 (observable, oldValue, newValue) -> {
                     recipeBackendController.setCuisine(newValue);
                     updateRecipeList();
                 },
-                "Sverige", "Grekland", "Indien", "Asien", "Afrika", "Frankrike"
+                "Visa alla", "Sverige", "Grekland", "Indien", "Asien", "Afrika", "Frankrike"
         );
 
         populateCountryComboBox();
@@ -127,7 +163,6 @@ public class RecipeSearchController {
 
     @FXML
     public void onClickedStackPane(Event e){
-        System.out.println("stack");
         if(detailOpen) {
             closeRecipeDetail();
         }
@@ -156,11 +191,6 @@ public class RecipeSearchController {
         populateRecipeDetailView(recipe);
         searchPane.getStyleClass().add("dim");
         recipeDetailPane.toFront();
-    }
-
-    private void populateRecipeDetailView(Recipe recipe) {
-        recipeDetailName.setText(recipe.getName());
-        recipeDetailImageView.setImage(recipe.getFXImage());
     }
 
     private void initRecipeDetailPane(AnchorPane pane) {
@@ -223,7 +253,7 @@ public class RecipeSearchController {
         slider.valueProperty().addListener((observable, oldValue, newValue) -> {
             if (newValue != null && !newValue.equals(oldValue)) {
                 recipeBackendController.setMaxTime(newValue.intValue());
-                label.setText("Max minutes: " + newValue.intValue());
+                label.setText(newValue.intValue() + " minuter");
                 updateRecipeList();
             }
         });
@@ -326,6 +356,18 @@ public class RecipeSearchController {
 
     public Image getIconImage(String name){
         return nameToImageMap.get(name);
+    }
+
+    private Image getDifficultyImage(String difficulty){
+        switch(difficulty){
+            case "Lätt":
+                return getImage("RecipeSearch/resources/icon_difficulty_easy.png");
+            case "Mellan":
+                return getImage("RecipeSearch/resources/icon_difficulty_medium.png");
+            case "Svår":
+                return getImage("RecipeSearch/resources/icon_difficulty_hard.png");
+        }
+        return null;
     }
 
 }

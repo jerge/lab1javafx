@@ -16,7 +16,8 @@ public class RecipeBackendController {
     private int maxTime = 0;
 
     public List<Recipe> getRecipes() {
-        return db.search(new SearchFilter(difficulty, maxTime, cuisine, maxPrice, mainIngredient));
+        cuisine = cuisine == null ? "" : cuisine; //Make sure cuisine is not null
+        return db.search(new SearchFilter(difficulty, maxTime, cuisine.equals("Visa alla") ? "" : cuisine, maxPrice, mainIngredient));
     }
 
     public void setCuisine(String cuisine) {
