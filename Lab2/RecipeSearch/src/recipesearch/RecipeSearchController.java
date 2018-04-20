@@ -324,4 +324,8 @@ public class RecipeSearchController {
                 "RecipeSearch/resources/icon_close.png")));
     }
 
+    public Image getIconImage(String name){
+        return nameToImageMap.get(name);
+    }
+
 }

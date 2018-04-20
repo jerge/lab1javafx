@@ -2,9 +2,10 @@ package recipesearch;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.control.Label;
+import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
-import javafx.scene.text.Text;
 import se.chalmers.ait.dat215.lab2.Recipe;
 
 import java.io.IOException;
@@ -12,10 +13,12 @@ import java.io.IOException;
 public class RecipeListItem extends AnchorPane {
 
     @FXML
-    private ImageView recipeImageView;
+    private ImageView recipeImageView, countryFlagImageView, mainIngredientImageView, difficultyImageView;
 
     @FXML
-    private Text recipeName;
+    private Label recipeNameLabel, minutesCookingLabel, costLabel;
+
+
     private RecipeSearchController parentController;
     private Recipe recipe;
 
@@ -34,12 +37,33 @@ public class RecipeListItem extends AnchorPane {
         this.parentController = recipeSearchController;
 
         recipeImageView.setImage(recipe.getFXImage());
-        recipeName.setText(recipe.getName());
+        countryFlagImageView.setImage(recipeSearchController.getIconImage(recipe.getCuisine()));
+        mainIngredientImageView.setImage(recipeSearchController.getIconImage(recipe.getMainIngredient()));
+        difficultyImageView.setImage(getDifficultyImage(recipe.getDifficulty()));
+        recipeNameLabel.setText(recipe.getName());
+        minutesCookingLabel.setText(recipe.getTime() + " minuter");
+        costLabel.setText(recipe.getPrice() + " kr");
 
         super.setOnMouseClicked(event -> {
             event.consume();
             parentController.openRecipeView(recipe);
         });
+    }
+
+    private Image getDifficultyImage(String difficulty){
+        switch(difficulty){
+            case "Lätt":
+                return getImage("RecipeSearch/resources/icon_difficulty_easy.png");
+            case "Mellan":
+                return getImage("RecipeSearch/resources/icon_difficulty_medium.png");
+            case "Svår":
+                return getImage("RecipeSearch/resources/icon_difficulty_hard.png");
+        }
+        return null;
+    }
+
+    private Image getImage(String path) {
+        return new Image(getClass().getClassLoader().getResourceAsStream(path));
     }
 
 }
